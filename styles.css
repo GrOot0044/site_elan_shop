@@ -91,7 +91,7 @@ main .script-livre {
 }
 
 main .script-livre .photo-mascotte {
-    width: 100%; /* Largeur de l'image */
+    width: 100%; /* Largeur dE l'image */
     height: auto; /* Hauteur automatique pour conserver les proportions */
 }
 
