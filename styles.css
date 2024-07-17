@@ -1,0 +1,134 @@
+
+/* Style général pour le corps de la page */
+body {
+    font-family: Arial, sans-serif; /* Police générale */
+    margin: 0; /* Marges à zéro */
+    padding: 0; /* Padding à zéro */
+    background: url('background_shop.png') no-repeat center center fixed; /* Image de fond */
+    background-size: cover; /* Couvrir toute la page */
+}
+
+/* Style pour l'en-tête */
+header {
+    background-color: rgba(0, 0, 0, 0.7); /* Couleur de fond avec transparence */
+    color: #fff; /* Couleur du texte */
+    padding: 20px; /* Padding de l'en-tête */
+    text-align: center; /* Alignement du texte */
+}
+
+header .container1, header .container2, header .container3 {
+    display: flex; /* Utiliser flexbox */
+    justify-content: space-between; /* Espacement égal entre les éléments */
+    align-items: center; /* Alignement des éléments au centre verticalement */
+}
+
+header .container1, header .container3 {
+    justify-content: space-around; /* Espacement égal entre les éléments pour ces conteneurs */
+}
+
+header .logo {
+    width: 100px; /* Largeur de l'image */
+    height: auto; /* Hauteur automatique pour conserver les proportions */
+}
+
+header .identifiant, .mot-de-passe, .connexion, .inscription {
+    margin: 5px; /* Marge autour des éléments */
+}
+
+/* Style pour la navigation */
+nav.script-nav {
+    background-color: rgba(0, 0, 0, 0.7); /* Couleur de fond avec transparence */
+    color: #fff; /* Couleur du texte */
+    padding: 10px; /* Padding de la navigation */
+    text-align: center; /* Alignement du texte */
+    margin: 20px 0; /* Marge en haut et en bas */
+}
+
+nav ul {
+    list-style-type: none; /* Supprimer les puces des listes */
+    padding: 0; /* Padding à zéro */
+    margin: 0; /* Marge à zéro */
+}
+
+nav ul li {
+    display: inline; /* Affichage en ligne */
+    margin: 0 10px; /* Marges latérales */
+}
+
+nav ul li button {
+    background-color: #666; /* Couleur de fond des boutons */
+    color: #fff; /* Couleur du texte */
+    border: none; /* Pas de bordure */
+    padding: 10px 20px; /* Padding interne */
+    cursor: pointer; /* Curseur pointeur */
+    display: flex; /* Affichage flex pour inclure les icônes */
+    align-items: center; /* Centrer les éléments verticalement */
+}
+
+nav ul li button:hover {
+    background-color: #555; /* Couleur de fond au survol */
+}
+
+nav ul li button .icon {
+    width: 20px; /* Largeur des icônes */
+    height: auto; /* Hauteur automatique pour conserver les proportions */
+    margin-right: 10px; /* Marge à droite des icônes */
+}
+
+/* Style pour le contenu principal */
+main.main1 {
+    display: flex; /* Utiliser flexbox */
+    justify-content: space-between; /* Espacement égal entre les éléments */
+    padding: 20px; /* Padding du contenu principal */
+}
+
+main .script-livre {
+    flex: 3; /* Prendre 3 parts de l'espace disponible */
+    padding: 20px; /* Padding de la section */
+    background-color: rgba(255, 255, 255, 0.9); /* Couleur de fond avec transparence */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Ombre */
+    margin-right: 20px; /* Marge à droite */
+}
+
+main .script-livre .photo-mascotte {
+    width: 100%; /* Largeur de l'image */
+    height: auto; /* Hauteur automatique pour conserver les proportions */
+}
+
+/* Style pour les mosaïques */
+.mosaic {
+    margin-bottom: 20px; /* Marge inférieure */
+}
+
+.mosaic-grid {
+    display: grid; /* Utiliser la grille pour les mosaïques */
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Colonnes adaptatives */
+    gap: 10px; /* Espacement entre les éléments */
+}
+
+.mosaic-grid img {
+    width: 100%; /* Largeur de chaque image */
+    height: auto; /* Hauteur automatique pour conserver les proportions */
+}
+
+main aside.main1-aside {
+    flex: 1; /* Prendre 1 part de l'espace disponible */
+    padding: 20px; /* Padding de l'aside */
+    background-color: rgba(255, 255, 255, 0.9); /* Couleur de fond avec transparence */
+    text-align: center; /* Alignement du texte */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Ombre */
+}
+
+main aside.main1-aside .photo-equipe {
+    width: 100%; /* Largeur de l'image */
+    height: auto; /* Hauteur automatique pour conserver les proportions */
+}
+
+/* Style pour le pied de page */
+footer {
+    background-color: rgba(0, 0, 0, 0.7); /* Couleur de fond avec transparence */
+    color: #fff; /* Couleur du texte */
+    padding: 20px; /* Padding du pied de page */
+    text-align: center; /* Alignement du texte */
+    margin-top: 20px; /* Marge en haut */
+}

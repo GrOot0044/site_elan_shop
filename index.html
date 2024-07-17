@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Élan Shop</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Lien vers le fichier CSS -->
+</head>
+<body>
+    <!-- SECTION HEADER -->
+    <header>
+        <div class="container1">
+            <button id="button1">Logout</button> <!-- Bouton Logout -->
+            <button id="button2">Power</button> <!-- Bouton Power -->
+        </div>
+        <div class="container2">
+            <h1>ÉLAN SHOP</h1> <!-- Titre du site -->
+            <input type="text" placeholder="Identifiant" class="identifiant"> <!-- Champ pour l'identifiant -->
+            <input type="password" placeholder="Mot de passe" class="mot-de-passe"> <!-- Champ pour le mot de passe -->
+            <button class="connexion">Connexion</button> <!-- Bouton de connexion -->
+        </div>
+        <div class="container3">
+            <img src="logo_shop.png" alt="Logo" class="logo"> <!-- Logo -->
+            <button class="inscription">Inscription</button> <!-- Bouton d'inscription -->
+        </div>
+    </header>
+
+    <!-- NAVIGATION PRINCIPALE -->
+    <nav class="script-nav">
+        <ul>
+            <!-- Utiliser des images comme puces pour les boutons de navigation -->
+            <li><button class="alimentation"><img src="path/to/food_icon.png" alt="Alimentation" class="icon"> ALIMENTATION</button></li>
+            <li><button class="equipement-personnel"><img src="path/to/personal_equipment_icon.png" alt="Équipement Personnel" class="icon"> ÉQUIPEMENT PERSONNEL</button></li>
+            <li><button class="equipement-maison"><img src="path/to/home_equipment_icon.png" alt="Équipement de la Maison" class="icon"> ÉQUIPEMENT DE LA MAISON</button></li>
+        </ul>
+    </nav>
+
+    <!-- CONTENU PRINCIPAL -->
+    <main class="main1">
+        <!-- Section du livre script -->
+        <section class="script-livre">
+            <h2>Script Livre "Code de Stéphane"</h2> <!-- Titre de la section -->
+            <p>Présentation des produits sous forme de mosaïque...</p> <!-- Description de la section -->
+            
+            <!-- Première mosaïque de produits pour l'alimentation -->
+            <div class="mosaic" id="mosaic-food">
+                <h3>Alimentation</h3> <!-- Titre de la mosaïque -->
+                <div class="mosaic-grid">
+                    <!-- Placer les images des produits ici -->
+                    <img src="path/to/food1.jpg" alt="Food Product 1">
+                    <img src="path/to/food2.jpg" alt="Food Product 2">
+                    <!-- Ajouter jusqu'à 20 images -->
+                </div>
+            </div>
+            
+            <!-- Deuxième mosaïque de produits pour l'équipement personnel -->
+            <div class="mosaic" id="mosaic-personal-equipment">
+                <h3>Équipement Personnel</h3> <!-- Titre de la mosaïque -->
+                <div class="mosaic-grid">
+                    <!-- Placer les images des produits ici -->
+                    <img src="path/to/personal_equipment1.jpg" alt="Personal Equipment 1">
+                    <img src="path/to/personal_equipment2.jpg" alt="Personal Equipment 2">
+                    <!-- Ajouter jusqu'à 20 images -->
+                </div>
+            </div>
+            
+            <!-- Troisième mosaïque de produits pour l'équipement de la maison -->
+            <div class="mosaic" id="mosaic-home-equipment">
+                <h3>Équipement de la Maison</h3> <!-- Titre de la mosaïque -->
+                <div class="mosaic-grid">
+                    <!-- Placer les images des produits ici -->
+                    <img src="path/to/home_equipment1.jpg" alt="Home Equipment 1">
+                    <img src="path/to/home_equipment2.jpg" alt="Home Equipment 2">
+                    <!-- Ajouter jusqu'à 20 images -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Section de l'équipe commerciale -->
+        <aside class="main1-aside">
+            <h2>Photo de l'Équipe</h2> <!-- Titre de l'aside -->
+            <img src="chopper_couverture_droit.jpg" alt="L'Équipe" class="photo-equipe"> <!-- Image de l'équipe -->
+        </aside>
+    </main>
+
+    <!-- PIED DE PAGE -->
+    <footer>
+        <p>@Élan Shop</p> <!-- Texte du pied de page -->
+    </footer>
+
+    <script src="script.js"></script> <!-- Lien vers le fichier JavaScript -->
+</body>
+</html>
